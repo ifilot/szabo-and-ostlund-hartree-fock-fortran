@@ -29,6 +29,13 @@ cd src
 make
 ```
 
+Alternatively, one can also do the compilation without the Makefile via
+
+```bash
+cd src
+gfortran -std=legacy hf.f -o hf
+```
+
 ## Running the program
 
 Just type `./hf` to run the program. The output of the program can be found
