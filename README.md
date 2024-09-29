@@ -1,5 +1,8 @@
 # Szabo and Ostlund Hartree-Fock example program
 
+[![build-status](https://github.com/ifilot/szabo-and-ostlund-hartree-fock-fortran/actions/workflows/build.yml/badge.svg)](https://github.com/ifilot/szabo-and-ostlund-hartree-fock-fortran/actions/workflows/build.yml)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 The file [src/hf.f](src/hf.f) contains the source code for a basic Hartree-Fock
 (HF) calculation (using the STO-3G basis set) with only s-orbitals, specifically
 for the HeH⁺ molecule. 
@@ -30,3 +33,8 @@ make
 
 Just type `./hf` to run the program. The output of the program can be found
 in [output.txt](output.txt).
+
+## License
+
+With exception of the file [src/hf.f](src/hf.f), all source code provided in
+this repository is provided under a GPLv3 license.
